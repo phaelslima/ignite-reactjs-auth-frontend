@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react'
 import { AuthContext } from '../contexts/AuthContext'
-import { api } from '../services/api'
+import { api } from '../services/apiClient'
+
 import styles from '../styles/Home.module.css'
 
 export default function Dashboard() {
